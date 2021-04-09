@@ -1,0 +1,22 @@
+{
+  "name": "book-shop-automation-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiafreitas/book-shop-automation-testing-Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreiafreitas/book-shop-automation-testing-Cypress/issues"
+  },
+  "homepage": "https://github.com/andreiafreitas/book-shop-automation-testing-Cypress#readme",
+  "devDependencies": {
+    "cypress": "^7.0.1"
+  }
+}
