@@ -31,7 +31,6 @@ describe('Homepage', () => {
     })
 
     it.only('As a Guest I want to subscribe the page to receive notifications about the website', () => {
-        cy.visit('http://practice.automationtesting.in/')
 
     })
 })
