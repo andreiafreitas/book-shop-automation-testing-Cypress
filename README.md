@@ -14,8 +14,8 @@ Created on	05/04/2021
 
 
 > Roles:
-    >Guest (Customer without login)
-    >Customer (with login)
+>Guest (Customer without login)
+>Customer (with login)
 
 
 ### HOMEPAGE
