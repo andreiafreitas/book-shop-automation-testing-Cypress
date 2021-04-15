@@ -1,31 +1,35 @@
 #  Book Shop Automation Testing Cypress
 
 
-> Name: Automation Test	
+> Name: Book Shop Automation Testing Cypress
 > 
 > Description: Automation Practice Web Site 2021
-> 
-> Project: QA Challenge 
 > 	
 > Application: http://practice.automationtesting.in/
 > 
-> Platform:	Web / Cypress / WebStorm
+> Platform:	Web / Cypress
 > 
-> Created by	Andreia Freitas 
-> 	
-> Created on	05/04/2021	
+> Created by:	Andreia Freitas 	
+
+## How to setup project
+
+### Install dependencies
+**Requires Node version >= 10.0.0**
+```
+npm install
+```
+
+### How to run tests
+
+Set username and password environment variables in `cypress.json` 
+
+```
+npm run cypress:open
+```
+
 		
 		
 # TEST CASES
-
-
-        > Roles:
-        > 
-        > Guest (Customer without login)
-        > 
-        > Customer (with login)
-
-
 
 ## HOMEPAGE
 
@@ -234,20 +238,4 @@ Include string and numerical
         On product categories click on ‘JavaScript’
 
 
-
-## How to setup project
-
-### Install dependencies
-**Requires Node version >= 10.0.0**
-```
-npm install
-```
-
-### How to run tests
-
-Set username and password environment variables in `cypress.json` 
-
-```
-npm run cypress:open
-```
 
