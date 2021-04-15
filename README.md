@@ -29,8 +29,8 @@
 
 ## HOMEPAGE
 
-### As a Guest I want to see on the Homepage a highlight slider
-#### Acceptance criteria :
+### As a guest I want to see on the Homepage a highlight slider
+#### Acceptance criteria:
         Given I am a guest and I am on the top of the homepage
         When I click on the slider arrow
         Then I can see a different highlight book
@@ -42,8 +42,8 @@
         Being able to see different sliders
 
 
-### As a Guest I want to see the latest arrivals on the Homepage
-#### Acceptance criteria :
+### As a guest I want to see the latest arrivals on the Homepage
+#### Acceptance criteria:
         Given I am a guest and I am on the homepage
         When I scroll to the new arrivals section
         Then I can see 3 books
@@ -54,7 +54,7 @@
         Homepage must contains 3 arrivals
 
 
-### As a Guest I am able to use the search bar to look for website content
+### As a guest I am able to use the search bar to look for website content
 #### Acceptance criteria:
         Given I am a guest on the top left of the website 
         When I type on search bar and press enter
@@ -67,7 +67,7 @@
         The user is able to find HTML links to the content on the page
 
 
-### As a Guest I want to check social media connections
+### As a guest I want to check social media connections
 #### Acceptance criteria:
         Given I am a guest and I am at the button of any webpage,
         When I click on social media icon 
@@ -80,7 +80,7 @@
         Opens a new tab on the browser with a facebook page related to the website
 
 
-### As a Guest I want to subscribe the page to receive notifications about the website:
+### As a guest I want to subscribe the page to receive notifications about the website:
 #### Acceptance criteria:
         Given I input my email address 
         When I am on the button of the homepage and click the button ‘Subscribe’
@@ -153,16 +153,16 @@
 
 ### As a customer I want to write and submit a review 
 #### Acceptance criteria:
-	Given I am a customer
-	When I am on the product page and select the button ‘Reviews”
-	Then I am able to write a review and submit
+		Given I am a customer
+		When I am on the product page and select the button ‘Reviews”
+		Then I am able to write a review and submit
 
 
 ### As a customer I want to use the breadcrumb menu to go back 
 #### Acceptance criteria 
-	Given I am a customer 
-	When I am on the book page and click on the breadcrumb menu
-	Then I can go back 
+		Given I am a customer 
+		When I am on the book page and click on the breadcrumb menu
+		Then I can go back 
 
 
 ### As a guest I want to buy a book without login 
@@ -185,9 +185,9 @@
 
 ### As a guest to check out I need to fill all the form to complete the billing details
 #### Acceptance Criteria 
-	Given I am a guest 
-	When I am on the form 
-	Then I fill all my details
+		Given I am a guest 
+		When I am on the form 
+		Then I fill all my details
 
 
 First name 
@@ -212,16 +212,16 @@ Include string and numerical
 
 ### As a guest I can change the quantity of a product
 #### Acceptance Criteria 
-	Given I am a Guest 
-	When I am on the basket 
-	Then I change the quantity of product that I am buying
+		Given I am a Guest 
+		When I am on the basket 
+		Then I change the quantity of product that I am buying
 
 
 ### As a guest I am able to input a discount coupon
 #### Acceptance Criteria
-	Given I am a Guest and  I am on the basket 
-	When I input my discount coupon 
-	Then automatically is given me a discount amount
+		Given I am a Guest and  I am on the basket 
+		When I input my discount coupon 
+		Then automatically is given me a discount amount
 
 
 ### As a customer I want to search by product category to only see JavaScript books
