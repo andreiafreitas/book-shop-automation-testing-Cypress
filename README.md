@@ -27,9 +27,9 @@
 
 
 
-### HOMEPAGE
+## HOMEPAGE
 
-## As a Guest I want to see on the Homepage a highlight slider
+### As a Guest I want to see on the Homepage a highlight slider
 #### Acceptance criteria :
         Given I am a guest and I am on the top of the homepage
         When I click on the slider arrow
@@ -42,7 +42,7 @@
         Being able to see different sliders
 
 
-## As a Guest I want to see the latest arrivals on the Homepage
+### As a Guest I want to see the latest arrivals on the Homepage
 #### Acceptance criteria :
         Given I am a guest and I am on the homepage
         When I scroll to the new arrivals section
@@ -54,7 +54,7 @@
         Homepage must contains 3 arrivals
 
 
-## As a Guest I am able to use the search bar to look for website content
+### As a Guest I am able to use the search bar to look for website content
 #### Acceptance criteria:
         Given I am a guest on the top left of the website 
         When I type on search bar and press enter
@@ -67,7 +67,7 @@
         The user is able to find HTML links to the content on the page
 
 
-## As a Guest I want to check social media connections
+### As a Guest I want to check social media connections
 #### Acceptance criteria:
         Given I am a guest and I am at the button of any webpage,
         When I click on social media icon 
@@ -80,7 +80,7 @@
         Opens a new tab on the browser with a facebook page related to the website
 
 
-## As a Guest I want to subscribe the page to receive notifications about the website:
+### As a Guest I want to subscribe the page to receive notifications about the website:
 #### Acceptance criteria:
         Given I input my email address 
         When I am on the button of the homepage and click the button ‘Subscribe’
@@ -95,7 +95,7 @@
 
 
 
-### MY ACCOUNT - REGISTRATION
+## MY ACCOUNT - REGISTRATION
 
 ### As a guest I want to register an account to have access to the website 
 #### Acceptance criteria :
@@ -111,7 +111,7 @@
 
 
 
-### MY ACCOUNT -  LOGIN
+## MY ACCOUNT -  LOGIN
 
 ### As a guest I want to be able to login to see my account
 #### Acceptance Criteria 1:
@@ -138,7 +138,7 @@
 
 
 
-### SHOP
+## SHOP
 
 ### As a customer I want to filter books by price range.
 #### Acceptance criteria:
