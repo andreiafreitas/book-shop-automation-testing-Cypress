@@ -1,4 +1,4 @@
-# Book Shop Automation Testing Cypress
+#  <span style="color:red">**Book Shop Automation Testing Cypress** text</span>
 
 
 > Name: Automation Test	
@@ -16,7 +16,7 @@
 > Created on	05/04/2021	
 		
 		
-# Test Plan
+<span style="color:blue">*Test Plan*</span>
 
 
         > Roles:
