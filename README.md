@@ -64,6 +64,7 @@
         Visit URL http://practice.automationtesting.in/
         On the top left of the page you can find the search bar
         Type: 'HTML'
+        Click 'Enter'
         The user is able to find HTML links to the content on the page
 
 
