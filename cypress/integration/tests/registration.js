@@ -14,7 +14,13 @@ describe('Registration', () => {
         cy.get('[name=register]').click()
         cy.url().should('eq', 'http://practice.automationtesting.in/my-account/')
     })
+
+    it.only('Guest forgot to input password', () => {
+        cy.visit('http://practice.automationtesting.in/my-account/')
+        cy.get('#reg_email').type(uuidv4()+'test@test.io')
+        cy.get('[name=register]').click()
+        cy.get('[class="woocommerce-error"]').contains('Error: Please enter an account password.')
+    })
 });
 
-// TODO: Negative testing
 
