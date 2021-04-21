@@ -152,7 +152,7 @@ npm run cypress:open
         Then I can see only books where the price is between the range.
 ##### Steps to reproduce:
         Visit: http://practice.automationtesting.in/shop/
-        Filter by price 300 - 350
+        Filter by price 300 - 400
         Click ‘Filter’
 
 
