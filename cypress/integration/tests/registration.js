@@ -10,6 +10,7 @@ describe('Registration', () => {
     beforeEach(() => {
         cy.visit('http://practice.automationtesting.in/my-account/')
     })
+
     it('As a guest I want to register an account to have access to the website', () => {
         cy.get('#reg_email').type(uuidv4()+'test@test.io')
         cy.get('#reg_password').type('sfdgfhgjklj;koilukytredgfchgvhbhjiu8976iytghbjnm,')
