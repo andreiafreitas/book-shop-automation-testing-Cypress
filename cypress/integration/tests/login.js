@@ -1,9 +1,6 @@
 describe('Login', () => {
     it('As a guest I want to be able to login to see my account', () => {
-        cy.visit('http://practice.automationtesting.in/my-account/')
-        cy.get('#username').type('test@test.io')
-        cy.get('#password').type('sfdgfhgjklj;koilukytredgfchgvhbhjiu8976iytghbjnm,')
-        cy.get('[name=login]').click()
+        cy.typeLogin()
         cy.url().should('eq', 'http://practice.automationtesting.in/my-account/')
     })
 

@@ -1,17 +1,8 @@
-function uuidv4() {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        const r = Math.random() * 10 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-        return v.toString(10);
-    });
-}
+import * as utils from '../../utils';
 
 describe('Shop as a customer', () => {
     beforeEach( () => {
-        cy.visit('http://practice.automationtesting.in/my-account/')
-        cy.get('#username').type('test@test.io')
-        cy.get('#password').type('sfdgfhgjklj;koilukytredgfchgvhbhjiu8976iytghbjnm,')
-        cy.get('[name=login]').click()
-        cy.url().should('eq', 'http://practice.automationtesting.in/my-account/')
+        cy.typeLogin()
         cy.visit('http://practice.automationtesting.in/shop/')
     })
     it('I want to filter books by price range', () => {
@@ -27,7 +18,7 @@ describe('Shop as a customer', () => {
         cy.url().should('eq', 'http://practice.automationtesting.in/shop/?min_price=300&max_price=400')
     })
     it('I want to write and submit a review', () => {
-        const reviewUuid = "Good book" + uuidv4();
+        const reviewUuid = "Good book" + utils.uuidv4();
         cy.get('[title="Android Quick Start Guide"]').click()
         cy.url().should('eq', 'http://practice.automationtesting.in/product/android-quick-start-guide/')
         cy.get('[class="reviews_tab"]').click()
